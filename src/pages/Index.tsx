@@ -1,10 +1,10 @@
-
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import UniverseBackground from '../components/UniverseBackground';
 import EventCard from '../components/EventCard';
+import LatestEventBanner from '../components/LatestEventBanner';
 import { ChevronRight, Rocket, Star, Calendar } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -47,6 +47,9 @@ const Index: React.FC = () => {
       {/* Hero Section */}
       <main className="flex-grow">
         <HeroSection />
+        
+        {/* Latest Event Banner */}
+        <LatestEventBanner />
         
         {/* Upcoming Events Section */}
         <section className="py-20 px-6">
