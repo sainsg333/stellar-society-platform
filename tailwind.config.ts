@@ -30,11 +30,11 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				cosmic: {
-					dark: '#0A1128',
-					purple: '#5D3F6A',
-					blue: '#7CA5B8',
-					light: '#F9F9F9',
-					accent: '#A06CD5'
+					dark: '#0F172A',      // Deeper space blue
+					purple: '#7C3AED',    // Vibrant cosmic purple
+					blue: '#38BDF8',      // Bright stellar blue
+					light: '#F9FAFB',     // Soft starlight
+					accent: '#C084FC'     // Glowing nebula accent
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
